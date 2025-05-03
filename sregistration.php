@@ -1,11 +1,20 @@
-<?php
-include 'adminpanel.php';
+<?php 
+    $filepath = realpath(dirname(__FILE__));
+	include_once ($filepath.'/inc/header.php');
+	include_once ($filepath.'/../classes/centre.php');
+  include_once ($filepath.'/../lib/Database.php');
+  include 'cadminpanel.php';
+	$user = new Centre();
 ?>
-
+<?php
+  //Session::checkSession();
+?>
 <!DOCTYPE HTML>  
 <html>
 <head>
-  <link rel="stylesheet" href="sregistration.css">
+
+  <link rel="stylesheet" href="sreg.css">
+  
 </head>
 <body>  
   <h1></h1>
@@ -75,11 +84,11 @@ function test_input($data) {
 </div>
   <br>
   <div class="bcontent">
-  Date of Birth: <input type="date" name="dbt"placeholder="Date of birtth" required>
-  Date of Registration: <input type="date" name="dor"placeholder="Date of Registration" required><br><br>
+  Date of Birth: <input type="date" name="dbt"placeholder=" Date of birtth" required>
+  Date of Registration: <input type="date" name="dor"placeholder=" Date of Registration" required><br><br>
   Marital Status:
-   <input type="radio" name="m" value="Married">Married
-  <input type="radio" name="m" value="Unmarried">Unmarried
+   <input type="radio" name="m" value=" Married"> Married
+  <input type="radio" name="m" value=" Unmarried"> Unmarried
   <br><br>
   Educational Qualification:
     <select name="qualification" id="count">
@@ -98,9 +107,9 @@ function test_input($data) {
   </select>
     <br><br>
   Gender:
-  <input type="radio" name="gender" id="option1" value="female">Female
-  <input type="radio" name="gender" id="option1" value="male">Male
-  <input type="radio" name="gender" id="option1" value="other">Other
+  <input type="radio" name="gender" id="option1" value="female"> Female
+  <input type="radio" name="gender" id="option1" value="male"> Male
+  <input type="radio" name="gender" id="option1" value="other"> Other
   <br>
 Comment:  <textarea name="comment" rows="5" cols="40"></textarea>
 <br><br>
@@ -110,12 +119,14 @@ Comment:  <textarea name="comment" rows="5" cols="40"></textarea>
   <br>
   </div>
   <br><br>
-  <button><a href="Computertraining.html">Back</a></button>
+  <div class="bbtm">
+  <button><a href="index.php">Back</a></button>
   <button><a href="regview.php">Edit Data</a></button>
   <button><a href="pdfreport.php">View/Download PDF</a></button>
-  <button><a href="slogin.php">Login</a></button>
+  <button><a href="">Login</a></button>
   <br><br>
   </div>
+  
 </div>
 </form>
 <?php
@@ -153,7 +164,7 @@ if ($result->num_rows > 0) {
 
 if(isset($_POST['submit']))
 {
-  echo "Its nothing";
+  //echo "Its nothing";
 /*  <?php
 $name = "Dinamani"; // Example name
 $firstThreeChars = substr($name, 0, 3);
@@ -202,7 +213,7 @@ echo "Today's date is: " . $currentDate;
 //echo $ryear;
 //echo $scode;
 //echo $id;
-echo $roll;
+//echo $roll;
 //echo $id;
 
    /*if($query)

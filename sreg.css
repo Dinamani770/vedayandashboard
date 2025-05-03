@@ -1,0 +1,152 @@
+{
+    margin=0;
+    padding=0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica,sans-serif;
+ }
+ body{
+    
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+ }
+ .inputbox{
+    
+    border-color: rgb(1, 128, 85);
+    width: 550px;
+    margin-left: 350px;
+    padding-top:5px;
+
+    background-color: rgb(246, 242, 215);
+  /*  display: flex;*/
+    justify-content:center;
+    align-items: center;
+ 
+ }
+ .inputbox h2{
+    font-size: 35px;
+    height: 55px;
+    border-radius: 5px;
+    background-color: rgb(153, 51, 33);
+    text-align: center;
+    color: rgb(252, 252, 252);
+margin-bottom: 10px;
+
+ }
+ .inputbox .head{
+
+    background-color: rgb(246, 242, 215);
+    display: flex;
+    margin-right: 50px;
+ }
+ .inputbox .inputfield{
+    /*background-color: aqua;*/
+    position: relative;
+   /*width: 30%;*/
+    margin: 15px;
+    height: 25px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 60px;
+    display: flex;
+}
+.inputbox .inputfield input{
+    
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    outline-color: aliceblue;
+    
+    width: 230px;
+}
+.inputbox .inputfield input::placeholder{
+    color: rgb(0, 0, 0);
+}
+.inputbox .head{
+    width: 90%;
+    display: flex;
+    height: 20px;
+    margin:20px;
+    /*background-color: rgb(237, 241, 240);*/
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.inputbox .bcontent{
+    margin-left: 20px;
+    
+   /*background-color: rgb(237, 241, 240);*/
+   
+}
+.inputbox .btm input{
+   background-color: rgb(250, 250, 250);
+    width: 200px;
+    height:50px;
+    border-radius:10px;
+    margin-left: 150px;
+        color: white; /* Text color */
+    font-size: 25px; /* Adjust font size */
+    background-color: blue; /* Button background */
+    padding: 10px 20px; /* Adds spacing inside the button */
+    border: none;
+    cursor: pointer;
+
+}
+.inputbox .bbtm button a{
+    
+    width: 90px;
+    height:50px;
+    border: 0px;
+    margin-left: 0px;
+    text color: white;
+    color:Red; /* Text color */
+    font-size: 16px; /* Adjust font size */
+    background-color: ; /* Button background */
+    padding: 2px 5px; /* Adds spacing inside the button */
+    border: none;
+    cursor: pointer;
+ }
+
+    /*width:100%;*/
+
+/*.formbox{
+    width: 750px;
+    display: flex;
+    background-color: rgb(238, 223, 181);
+    justify-content:center;
+    align-items:left;
+
+}
+.formbox inputbox{
+    background-color: aquamarine;
+}
+.inputfield{
+    display: flex;
+    background-color: blueviolet;
+}
+/*
+.formbox
+{
+    width: 700px;
+    background-color: bisque;
+    border-radius: 10px;
+    color: brown;
+    margin-left: 250px;
+}
+    .heading
+{
+        width: 700px;
+        background-color: bisque;
+        border-radius: 10px;
+        color: rgb(116, 118, 245);
+        margin-left: 250px;
+    }
+    .inputbox{
+        background-color: bisque;
+        margin: 12px;
+    }
+    .inputbox .inputfield
+    {
+        display: flex;
+        margin: 8px;
+        justify-content: space-between;
+        background-color: rgb(225, 225, 243);
+    }

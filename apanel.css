@@ -6,11 +6,11 @@
 }
 .sidebar {
     height: 150vh;
-    width: 10%;
+    width: 15%;
     position: fixed;
     left: 0;
     top: 0;
-    background-color:rgb(2, 66, 125);
+    background-color: #08447c;
     padding-top: 20px;
 }
 .sidebar a {
@@ -36,7 +36,7 @@ font-size:20px;
 
 .header {
     overflow: hidden;
-    background-color:rgb(2, 66, 125);
+    background-color:  #08447c;
     padding: 20px 10px;
     margin-left: 30px;
     position:flex;
@@ -47,7 +47,7 @@ font-size:20px;
     float: left;
     color: rgb(177, 164, 164);
     text-align: center;
-    padding: 18px;
+    padding: 12px;
     text-decoration: none;
     font-size: 18px; 
     line-height: 25px;
@@ -61,12 +61,12 @@ font-size:20px;
   }
   
   .header a:hover {
-    background-color: #f8f5f5;
+    background-color: #ddd;
     color: black;
   }
   
-  .header .header-right a.active {
-    color: rgb(249, 221, 15);
+  .header a.active {
+    background-color: dodgerblue;
     color: white;
   }
   
@@ -95,7 +95,7 @@ font-size:20px;
     border-color: #08447c;
   }
   body{
-    background-color: rgb(247, 247, 209);
+    background-color: rgb(255, 255, 255);
    }
    .bcontainer{
     background-color: rgb(255, 255, 255);
