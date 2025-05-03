@@ -1,0 +1,57 @@
+{
+    margin=0;
+    padding=0;
+}
+.icontainer{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    height: 150px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.icontainer .col1{
+    width: 20%;
+    height: 450px;
+    gap: 10px;
+    border-radius: 10px;
+    background-color: rgb(144, 213, 253);
+    box-shadow: 8px 8px 4px goldenrod;
+   /* align-items:center;*/
+}
+.icontainer.col1 img{
+    margin-top: 20px;
+}
+.icontainer.col1 p{
+    color: red;
+}
+.icontainer .col2{
+    width: 60%px;
+    height: 680px;
+    margin-left: 15px;
+    margin-right: 10px;
+    background-color: rgb(252, 241, 197);
+    box-shadow: 5px 5px rgb(88, 78, 20);
+    color: rgb(151, 11, 6);
+    font-size: 25px;
+}
+.icontainer.col4{
+    background-color: rgb(160, 160, 239);
+}
+.col2.activity{
+
+}
+.icontainer .col3{
+    width: 20%px;
+    height: 200px;
+    margin-left:15px;
+    background-color: rgb(181, 236, 232);
+    box-shadow: 5px 5px 5px;
+}
+.icontainer .col3 img{
+background-color: aquamarine;
+margin-top: 10px;
+}
+ .icontainer.col1 img{
+    background-color: rgb(9, 175, 120);
+    margin-top: 45px;
+    }
